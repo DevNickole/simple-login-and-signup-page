@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+    <form id="login-form">
+        <h1>Welcome</h1>
+        <div class="username-wrapper">
+            <input id="login-usernameinput" placeholder="username" type="text" required>
+            <label class="username-label" for="">username</label>
+        </div>
+        <div class="password-wrapper">
+            <input id="login-passwordinput" placeholder="password" type="password" required>
+            <label class="password-label">password</label>
+        </div>
+        <button id="login">Login</button>
+        <div class="navigateto-signup">
+            <h4>Don't have an account yet? <a class="navtosignup" href="">sign-up</a></h3>
+        </div>
+    </form>
+    <form id="signup-form">
+        <h1>Sign-up</h1>
+        <div class="username-wrapper">
+            <input id="signup-usernameinput" placeholder="username" type="text" required>
+            <label class="username-label" for="">username</label>
+        </div>
+        <div class="password-wrapper">
+            <input id="signup-passwordinput" placeholder="password" type="password" required>
+            <label class="password-label">password</label>
+        </div>
+        <div class="password-wrapper">
+            <input id="signup-confirmpasswordinput" placeholder="password" type="password" required>
+            <label class="confirm-password-label">confirm password</label>
+        </div>
+        <button id="signup">Signup</button>
+    </form>
+</body>
+
+</html>
